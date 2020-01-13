@@ -13,9 +13,7 @@ docker run -it --rm \
     --volume="$XAUTH:$XAUTH:rw" \
     --env="XAUTHORITY=${XAUTH}" \
     --env="DISPLAY" \
-    --user="gui" \
     --env="GUI_UID=${GUI_UID}" \
     --env="GUI_GID=${GUI_GID}" \
     docker-gui
-
 
