@@ -5,9 +5,9 @@
 usermod --uid $GUI_UID gui
 groupmod --gid $GUI_GID gui
 
-# Change to gui user and run xeyes to validate
-sudo -u gui xeyes
+# # Change to gui user and run xeyes to validate
+# sudo -u gui xeyes
 
-# # Change to gui user and run bash to debug
-# sudo -u gui bash
+# Change to gui user and run bash to debug
+sudo -u gui bash
 
